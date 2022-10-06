@@ -52,16 +52,21 @@ h2 {
 }
    
 
-@media (max-width: 850px) {
+@media screen and (max-width: 1045px) {
 
       .accueil{
         display: flex;
         flex-direction: column;
-        height: 650px;
+        align-items: center;
+        height: 800px;
         background-color: #02a7b4;
         text-align: center; 
-       
+               
   }
+  .image-formation {
+   width: 80%;
+
+}
  
   h1{
     
@@ -112,11 +117,13 @@ vertical-align: top;
 
   
   
-@media (max-width: 1045px) {
+@media screen and (max-width: 1045px) {
+
      
+  
       .table-introduction td {
       display: block;
-     min-width: 500px;
+      min-width: 500px;
      
     }
 }
@@ -160,7 +167,7 @@ vertical-align: top;
 
 
 
-   @media (max-width: 1045px) {
+   @media screen and (max-width: 1045px) {
 
     .niveau{ 
     border-radius: 10px;
@@ -236,6 +243,25 @@ min-width: 300px;
 
 .promesses-details p{
 text-align: justify;
+}
+
+@media screen and (max-width: 1045px) {
+
+    .promesses    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    
+        
+    }
+ .promesses-details  {
+width: 80%;   
+}
+
+.promesses-details p{
+    text-align: center;
 }
 
 /* section témoignage */
