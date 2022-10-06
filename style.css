@@ -139,37 +139,51 @@ vertical-align: top;
 .section-niveaux
 {
     margin: 40px 0;
-    text-align: left;
-   
+    text-align: left;   
 }
+
+.niveaux
+{
+    width: 90%; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;  
+    margin: 40px auto;
+   }
+
 .niveau
 {
     border-radius: 10px;
     border: 2px solid rgb(215, 210, 210);
     width: 30%;
     margin: 5px;
-    min-width: 300px;
-    text-align: justify;
+    min-width: 300px;   
 }
-.niveaux
-{
-    width: 80%; 
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: center;  
-    margin: 40px auto;
-   
 
+
+
+   @media (max-width: 1045px) {
+
+    .niveau{ 
+    border-radius: 10px;
+    border: 2px solid rgb(215, 210, 210);
+    width: 90%;
+    margin: 5px;
+  
+    }
 }
+
 .image-niveau
 {
     width:100%;
     background-color: #e9e9e9;
     border-radius: 10px 10px 0 0 ;
-    margin-bottom: 20px;
-
-   
+    margin-bottom: 20px; 
 }
+
+
+
+
 
 
 .objectif
