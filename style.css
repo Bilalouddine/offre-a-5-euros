@@ -3,7 +3,17 @@
 body{
     margin: 0;
     font-size: 20px;
-    font-family: 'Merriweather', serif;   
+    font-family: 'Merriweather', serif;
+}
+
+@media screen and (max-width: 1045px){
+
+body{ font-size: 50px !important; 
+}
+
+
+
+
 }
 
 .titre {
@@ -262,6 +272,7 @@ width: 80%;
 
 .promesses-details p{
     text-align: center;
+}
 }
 
 /* section témoignage */
