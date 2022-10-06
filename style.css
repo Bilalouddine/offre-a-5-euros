@@ -57,7 +57,7 @@ h2 {
       .accueil{
         display: flex;
         flex-direction: column;
-                height: 650px;
+        height: 650px;
         background-color: #02a7b4;
         text-align: center; 
        
@@ -113,12 +113,10 @@ vertical-align: top;
   
   
 @media (max-width: 1045px) {
-
      
-  
       .table-introduction td {
       display: block;
-      width: 80%;
+     min-width: 500px;
      
     }
 }
