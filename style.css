@@ -112,13 +112,13 @@ vertical-align: top;
 
   
   
-@media (max-width: 600px) {
+@media (max-width: 1045px) {
 
      
   
       .table-introduction td {
       display: block;
-      min-width: 260px;
+      width: 80%;
      
     }
 }
