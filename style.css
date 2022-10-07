@@ -2,7 +2,7 @@
 
 body{
     margin: 0;
-    font-size: clamp(1.25rem, 2.5vw, 1.8rem) ! important;
+    font-size: 8rem ! important;
     font-family: 'Merriweather', serif;
 
 }
