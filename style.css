@@ -2,9 +2,12 @@
 
 body{
     margin: 0;
-    font-size: 1.7rem;
+    font-size: clamp(1rem, 2vw, 1.15rem) ! important;
     font-family: 'Merriweather', serif;
+
 }
+
+
 
 
 .titre {
@@ -69,6 +72,13 @@ h2 {
 
 }
  
+  h1{
+    
+    font-size: 2rem; 
+    color: white;
+    width: 100%;
+  }
+ 
 
   }
 
@@ -113,11 +123,18 @@ vertical-align: top;
   
 @media screen and (max-width: 1045px) {
 
-     
+    .table-introduction {
+        text-align: left;
+        width: 90%;
+        margin: 0 auto;
+        line-height: 1.5;
+        vertical-align: top;
+    }
   
+
       .table-introduction td {
       display: block;
-      width: 90%;
+      width: 100%;
      
     }
 }
