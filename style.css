@@ -39,8 +39,8 @@ a.lien {
     color: white;
 }
 
-a.lien:hover {
-   color: white;
+a:hover {
+   color: white !important;
 }
 
 
