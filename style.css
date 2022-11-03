@@ -39,7 +39,7 @@ a.lien {
     color: white;
 }
 
-a:hover {
+a.lien:hover {
    color: white;
 }
 
