@@ -39,6 +39,11 @@ a.lien {
     color: white;
 }
 
+a:hover {
+   color: white;
+}
+
+
 .accueil{
     padding: 5%;
     display: flex;
